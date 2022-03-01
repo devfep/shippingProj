@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 
-df = pd.read_excel("./DeliverySlips/DS-Fep-Dev.xlsx")
+df = pd.read_excel("./DS-Fep-Dev.xlsx")
 name = df.iloc[3, 2]
 print(name)
 
